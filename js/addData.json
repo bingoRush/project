@@ -1,0 +1,117 @@
+{
+    "child_lists": [{
+            "id": "1",
+            "name": "TV",
+            "url": "../img/img_list/child_list_tv.png",
+            "goods_intro": "TCL电视原装挂架WMB234",
+            "price": "69.00",
+            "sale": "300"
+        },
+        {
+            "id": "2",
+            "name": "TV",
+            "url": "http://f0.mall.tcl.com/pc1428891.png",
+            "goods_intro": "55V655英寸智慧全面屏电视",
+            "price": "2199.00",
+            "sale": "220"
+
+        },
+        {
+            "id": "3",
+            "name": "TV",
+            "url": "http://f0.mall.tcl.com/pc1428891.png",
+            "goods_intro": "65V665英寸智慧全面屏电视",
+            "price": "3199.00",
+            "sale": "66"
+        },
+        {
+            "id": "4",
+            "name": "TV",
+            "url": "https://f0.mall.tcl.com/Fu21TBdoT0g1UgDURCRRLotSYkGs",
+            "goods_intro": "55Q68055英寸金属超纤薄运动防抖全.",
+            "price": "2199.00",
+            "sale": "102"
+        },
+        {
+            "id": "5",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/609/0000609420.fid",
+            "goods_intro": "TCL电视原装挂架WMB234",
+            "price": "169.00",
+            "sale": "103"
+        },
+        {
+            "id": "6",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/719/0000719767.fid",
+            "goods_intro": "65L68065英寸防蓝光4K智能电视                ",
+            "price": "2689.00",
+            "sale": "104"
+        },
+        {
+            "id": "7",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/614/0000614909.fid",
+            "goods_intro": "65C665英寸全面屏哈曼卡顿电视 ",
+            "price": "6999.00",
+            "sale": "88"
+        },
+        {
+            "id": "8",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/347/0000347130.fid",
+            "goods_intro": "43F6F 43英寸新影音电视",
+            "price": "1799.00",
+            "sale": "108"
+        },
+        {
+            "id": "9",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/571/0000571592.fid",
+            "goods_intro": "43F6F 43英寸新影音电视",
+            "price": "1669.00",
+            "sale": "107"
+        },
+        {
+            "id": "10",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/513/0000513757.fid",
+            "goods_intro": "55F655英寸新影音电视",
+            "price": "2599.00",
+            "sale": "115"
+        },
+        {
+            "id": "11",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/684/0000684710.fid",
+            "goods_intro": "65C10 65英寸双屏QLED电视",
+            "price": "16999.00",
+            "sale": "50"
+        },
+        {
+            "id": "12",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/746/0000746035.fid",
+            "goods_intro": "TCL 55C6655英寸Q画质HDR全场景A...",
+            "price": "4999.00",
+            "sale": "220"
+        },
+        {
+            "id": "13",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/397/0000397077.fid",
+            "goods_intro": "55X8 55英寸原色量子全面屏电视",
+            "price": "8999.00",
+            "sale": "68"
+        },
+        {
+            "id": "14",
+            "name": "TV",
+            "url": "http://img.mall.tcl.com/dev1/0/000/396/0000396762.fid",
+            "goods_intro": "55X555英寸量子点全面屏曲面电视",
+            "price": "10599.00",
+            "sale": "99"
+        }
+
+    ]
+}

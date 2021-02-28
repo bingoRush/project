@@ -1,0 +1,478 @@
+[{
+        "name": "TV",
+        "big_banner": "../img/img_list/TV.png",
+        "content_length": "3",
+        "content_name": [{
+                "id": "1",
+                "name_": "根据价格选择",
+                "name_length": "8",
+                "name_kind": [{
+                    "kinds_": "0-2000"
+                }, {
+                    "kinds_": "2000-3999"
+                }, {
+                    "kinds_": "4000-5999"
+                }, {
+                    "kinds_": "6000-7999"
+                }, {
+                    "kinds_": "8000-9999"
+                }, {
+                    "kinds_": "10000-14999"
+                }, {
+                    "kinds_": "15000-24999"
+                }, {
+                    "kinds_": "25000以上"
+                }]
+
+            },
+            {
+                "id": "2",
+                "name_": "根据距离选尺寸",
+                "name_length": "5",
+                "name_kind": [{
+                    "kinds_": "32英寸"
+                }, {
+                    "kinds_": "40-43英寸"
+                }, {
+                    "kinds_": "48-50英寸"
+                }, {
+                    "kinds_": "55-65英寸"
+                }, {
+                    "kinds_": "65英寸以上"
+                }]
+
+            },
+            {
+                "id": "3",
+                "name_": "根据特色",
+                "name_length": "6",
+                "name_kind": [{
+                    "kinds_": "量子点"
+                }, {
+                    "kinds_": "曲面屏"
+                }, {
+                    "kinds_": "高色域"
+                }, {
+                    "kinds_": "4K超高清"
+                }, {
+                    "kinds_": "安卓智能"
+                }, {
+                    "kinds_": "电视配件"
+                }]
+            }
+        ],
+
+
+        "child_lists": [{
+                "id": "1",
+                "url": "../img/img_list/child_list_tv.png",
+                "goods_intro": "TCL电视原装挂架WMB234",
+                "price": "69.00",
+                "sale": "300"
+            },
+            {
+                "id": "2",
+                "url": "http://f0.mall.tcl.com/pc1428891.png",
+                "goods_intro": "55V655英寸智慧全面屏电视",
+                "price": "2199.00",
+                "sale": "220"
+
+            },
+            {
+                "id": "3",
+                "url": "http://f0.mall.tcl.com/pc1428891.png",
+                "goods_intro": "65V665英寸智慧全面屏电视",
+                "price": "3199.00",
+                "sale": "66"
+            },
+            {
+                "id": "4",
+                "url": "https://f0.mall.tcl.com/Fu21TBdoT0g1UgDURCRRLotSYkGs",
+                "goods_intro": "55Q68055英寸金属超纤薄运动防抖全.",
+                "price": "2199.00",
+                "sale": "102"
+            },
+            {
+                "id": "5",
+                "url": "http://img.mall.tcl.com/dev1/0/000/609/0000609420.fid",
+                "goods_intro": "TCL电视原装挂架WMB234",
+                "price": "169.00",
+                "sale": "103"
+            },
+            {
+                "id": "6",
+                "url": "http://img.mall.tcl.com/dev1/0/000/719/0000719767.fid",
+                "goods_intro": "65L68065英寸防蓝光4K智能电视                ",
+                "price": "2689.00",
+                "sale": "104"
+            },
+            {
+                "id": "7",
+                "url": "http://img.mall.tcl.com/dev1/0/000/614/0000614909.fid",
+                "goods_intro": "65C665英寸全面屏哈曼卡顿电视 ",
+                "price": "6999.00",
+                "sale": "88"
+            },
+            {
+                "id": "8",
+                "url": "http://img.mall.tcl.com/dev1/0/000/347/0000347130.fid",
+                "goods_intro": "43F6F 43英寸新影音电视",
+                "price": "1799.00",
+                "sale": "108"
+            },
+            {
+                "id": "9",
+                "url": "http://img.mall.tcl.com/dev1/0/000/571/0000571592.fid",
+                "goods_intro": "43F6F 43英寸新影音电视",
+                "price": "1669.00",
+                "sale": "107"
+            },
+            {
+                "id": "10",
+                "url": "http://img.mall.tcl.com/dev1/0/000/513/0000513757.fid",
+                "goods_intro": "55F655英寸新影音电视",
+                "price": "2599.00",
+                "sale": "115"
+            },
+            {
+                "id": "11",
+                "url": "http://img.mall.tcl.com/dev1/0/000/684/0000684710.fid",
+                "goods_intro": "65C10 65英寸双屏QLED电视",
+                "price": "16999.00",
+                "sale": "50"
+            },
+            {
+                "id": "12",
+                "url": "http://img.mall.tcl.com/dev1/0/000/746/0000746035.fid",
+                "goods_intro": "TCL 55C6655英寸Q画质HDR全场景A...",
+                "price": "4999.00",
+                "sale": "220"
+            },
+            {
+                "id": "13",
+                "url": "http://img.mall.tcl.com/dev1/0/000/397/0000397077.fid",
+                "goods_intro": "55X8 55英寸原色量子全面屏电视",
+                "price": "8999.00",
+                "sale": "68"
+            },
+            {
+                "id": "14",
+                "url": "http://img.mall.tcl.com/dev1/0/000/396/0000396762.fid",
+                "goods_intro": "55X555英寸量子点全面屏曲面电视",
+                "price": "10599.00",
+                "sale": "99"
+            }
+
+        ]
+    },
+
+    {
+        "name": "xess",
+        "big_banner": "../img/img_list/XESS.png",
+        "child_lists": [{
+                "id": "1",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "70.00",
+                "sale": "102"
+            },
+            {
+                "id": "2",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "103"
+            },
+            {
+                "id": "3",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "104"
+            },
+            {
+                "id": "4",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "105"
+            },
+            {
+                "id": "5",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "106"
+            },
+            {
+                "id": "6",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "107"
+            },
+            {
+                "id": "7",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "108"
+            },
+            {
+                "id": "8",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "99"
+            },
+            {
+                "id": "9",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "98"
+            },
+            {
+                "id": "10",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "70"
+            },
+            {
+                "id": "11",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "50"
+            },
+            {
+                "id": "12",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "30"
+            },
+            {
+                "id": "13",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "20"
+            },
+            {
+                "id": "14",
+                "url": "../img/img_list/child_list_xess.png",
+                "goods_intro": "TCL·XESS旋转智屏A200Pro",
+                "price": "69.00",
+                "sale": "90"
+            }
+
+        ],
+        "content_length": "2",
+        "content_name": [{
+                "id": "1",
+                "name_": "根据价格选择",
+                "name_length": "2",
+                "name_kind": [{
+                    "kinds_": "0-9999"
+                }, {
+                    "kinds_": "10000以上"
+                }]
+
+            },
+            {
+                "id": "2",
+                "name_": "根据类别筛选",
+                "name_length": "2",
+                "name_kind": [{
+                    "kinds_": "艺术智屏"
+                }, {
+                    "kinds_": "旋转智屏"
+                }]
+
+            }
+
+        ]
+
+
+    },
+    {
+        "name": "AIR",
+        "big_banner": "../img/img_list/AIR.png",
+        "child_lists": [{
+                "id": "1",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "200"
+            },
+            {
+                "id": "2",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "150"
+            },
+            {
+                "id": "3",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "140"
+            },
+            {
+                "id": "4",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "130"
+            },
+            {
+                "id": "5",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "120"
+            },
+            {
+                "id": "6",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "150"
+            },
+            {
+                "id": "7",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "164"
+            },
+            {
+                "id": "8",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "155"
+            },
+            {
+                "id": "9",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "178"
+            },
+            {
+                "id": "10",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "184"
+            },
+            {
+                "id": "11",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "151"
+            },
+            {
+                "id": "12",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "133"
+            },
+            {
+                "id": "13",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "144"
+            },
+            {
+                "id": "14",
+                "url": "../img/img_list/child_list_air.png",
+                "goods_intro": "TCL12L家用静音智能除湿机",
+                "price": "69.00",
+                "sale": "135"
+            }
+
+        ],
+        "content_length": "4",
+        "content_name": [{
+                "id": "1",
+                "name_": "根据价格选择",
+                "name_length": "7",
+                "name_kind": [{
+                        "kinds_": "1000-1999"
+                    }, {
+                        "kinds_": "2000-2999"
+                    }, {
+                        "kinds_": "3000-3999"
+                    }, {
+                        "kinds_": "4000-4999"
+                    }, {
+                        "kinds_": "5000-5999"
+                    }, {
+                        "kinds_": "6000-6999"
+                    },
+                    {
+                        "kinds_": "7000以上"
+                    }
+                ]
+
+            },
+            {
+                "id": "2",
+                "name_": "根据匹数",
+                "name_length": "4",
+                "name_kind": [{
+                    "kinds_": "1匹"
+                }, {
+                    "kinds_": "1.5匹"
+                }, {
+                    "kinds_": "2匹"
+                }, {
+                    "kinds_": "3匹"
+                }]
+
+            },
+            {
+                "id": "3",
+                "name_": "根据特点",
+                "name_length": "5",
+                "name_kind": [{
+                    "kinds_": "壁挂式"
+                }, {
+                    "kinds_": "立柜式"
+                }, {
+                    "kinds_": "圆柱式"
+                }, {
+                    "kinds_": "移动式"
+                }, {
+                    "kinds_": "空调配件"
+                }]
+            },
+            {
+                "id": "4",
+                "name_": "根据变频/定频",
+                "name_length": "2",
+                "name_kind": [{
+                    "kinds_": "变频"
+                }, {
+                    "kinds_": "定频"
+                }]
+            }
+        ]
+
+
+    }
+
+
+
+
+
+
+]

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品列表页</title>
+    <link rel="stylesheet" href="../css/dist/shopp_list.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../js/htmljavascript/pagination.js"></script>
+    <script src="../js/cookie.js"></script>
+</head>
+
+<body>
+    <div id="head">
+        <div class="head_content">
+            <ul class="head_left">
+                <li><a href=""> TCL新闻 </a></li>
+                <li><a href=""> 企业采购 </a></li>
+                <li><a href=""> 经销商之家</a> </li>
+                <li><a href=""> TCL+ </a> </li>
+                <li><a href=""> 人才招聘 </a> </li>
+            </ul>
+            <ul class="head_right">
+                <li style="position: relative;"><a href=""> 微信商城</a> <img src="../img/wechat.jpg" alt=""></li>
+                <li style="position: relative;"><a href=""> TCL APP商城</a><img src="../img/tzj-qrcode.jpg" alt=""></li>
+                <li><a href="./shoppcar.html"> 购物车( )</a></li>
+                <li class="register_"><a href="./zhuce.html"> 注册</a></li>
+                <li class="register_"><a href="./denglu.html"> 登录</a></li>
+            </ul>
+            <div class="username_"><p class="act"></p><span class="act">></span></div>
+            <div class="login_">
+                <ul>
+                    <li><a href="">个人中心</a></li>
+                    <li><a href="">我的产品</a></li>
+                    <li><a href="">我的收藏</a></li>
+                    <li><a href="">账号管理</a></li>
+                    <li><a href="">评价管理</a></li>
+                    <li><a href="" class="exit">退出登录</a></li>
+                </ul>
+
+            </div>
+            <div class="exit_box">
+                <p>您确定要退出登录吗</p>
+                <button class="sure">确定</button><button class="no">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="nav_top_content">
+        <div id="nav_top">
+            <img src="../img/logo_03.jpg" alt="">
+            <ul class="nav_top_list">
+                <!-- <div class="line_"></div> -->
+                <li><a href="./home_page.html">首页</a></li>
+                <li><a href="./shopp_list.html?name=TV" class="appear_list">电视</a></li>
+                <li><a href="./shopp_list.html?name=xess" class="appear_list">XESS智屏</a></li>
+                <li><a href="./shopp_list.html?name=AIR" class="appear_list">空调</a></li>
+                <li><a href="./shopp_list.html?name=bingxiang" class="appear_list">冰箱</a></li>
+                <li><a href="./shopp_list.html?name=xiyiji" class="appear_list">洗衣机</a></li>
+                <li><a href="./shopp_list.html?name=chuweidianqi" class="appear_list">厨卫电器</a></li>
+                <li><a href="./shopp_list.html?name=zhinengjiaju" class="appear_list">智能家居</a></li>
+                <li><a href="./shopp_list.html?name=shangyongxianshi" class="appear_list">商用显示</a></li>
+            </ul>
+            <div>
+                <div class="search">
+                    <input type="text" name="" id="msg"><span class="iconfont icon-icon-plus-search"></span>
+
+                </div>
+                <a href=""><span>服务</span></a>
+                <a href=""><span>视频教程</span></a>
+                <a href=""><span>XESS门店</span></a>
+                <img src="../img/images/line_06.jpg" alt="">
+            </div>
+
+        </div>
+        
+        <div class="hidden_list">
+            <ul>
+                <!-- <li>
+                <a href="./goods_msg.html">
+                    <img src="../img/tv.jpg" alt="">
+                    <p>65Q1065英寸QLED全彩量子</p>
+                    <span id="pirces">6499.00元</span>
+                </a>
+            </li> -->
+
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- 商品大图 -->
+    <div id="banner">
+        <img src="" alt="">
+        <!-- <img src="../img/img_list/child_list_air.png" alt=""> -->
+    </div>
+
+    <div id="shopp_lists">
+        <div class="list_msg clearfix">
+            <!-- <div class="content"  >
+                <strong>根据 价格选择</strong>
+
+                <ul>
+                    <li><a href="">全部</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="content" >
+                <strong>根据 价格选择</strong>
+
+                <ul>
+                    <li><a href="">全部</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+
+
+                </ul>
+
+            </div> -->
+        </div>
+
+        <div class="sort_list">
+            <p><a href="">综合排序</a><a href="" class="saleNum">销量 ↓</a><a href="" class="priceNum">价格 ↑</a></p>
+        </div>
+
+        <ul class="goods_list clearfix">
+            <!-- <li>
+                <a href="./goods_msg.html?"><img src="../img/goods_list.jpg" alt=""></a>
+                <strong>TCL电视原装挂架WMB234</strong>
+                <p class="msg">适用于: V2 (55-43时) 、55L2.50L2、L2F (49-32时) 、55T3M、55T3D、55T3、49T3、49T2F.....</p>
+                <p class="price">69.00元</p>
+                <div>
+                    <a href="" class="buy">立即购买</a>
+                </div>
+            </li> -->
+            
+         
+        </ul>
+
+        <div class="pagination">
+
+        </div>
+    </div>
+
+
+
+    <!-- 信息 -->
+    <div id="msg">
+        <div class="msg">
+            <ul>
+                <li><a href=""><i class="iconfont icon-icon"></i><span>官方正品</span></a></li>
+                <li><a href=""><i class="iconfont icon-bao10"></i><span>全国联保</span></a></li>
+                <li><a href=""><i class="iconfont icon-quanchangbaoyou"></i><span>全场包邮</span></a></li>
+                <li><a href=""><i class="iconfont icon-tian"></i><span>7天无理由退货</span></a></li>
+            </ul>
+            <div class="help">
+                <div class="help_content">
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">购物指南</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">交易条款</a></dd>
+                        <dd><a href="">电子发票</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务支持</dt>
+                        <dd><a href="">售后服务</a></dd>
+                        <dd><a href="">自助服务</a></dd>
+                        <dd><a href="">进度查询</a></dd>
+                        <dd><a href="">视频教程</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>客户服务</dt>
+                        <dd><a href="">内购平台</a></dd>
+                        <dd><a href="">企业采购</a></dd>
+                        <dd><a href="">经销商之家</a></dd>
+                        <dd><a href="">十分到家</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关注我们</dt>
+                        <dd><a href="">联系我们</a></dd>
+                        <dd><a href="">官方微博</a></dd>
+                        <dd><a href="">授权体验店</a></dd>
+                        <dd><a href="">合作加盟</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>应用服务</dt>
+                        <dd><a href="">雷鸟</a></dd>
+                        <dd><a href="">欢网</a></dd>
+                        <dd><a href="">金融</a></dd>
+                        <dd><a href="">教育</a></dd>
+                        <dd><a href="">全球播</a></dd>
+                        <dd><a href="">T商智云</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>官方微商城</dt>
+                        <dd><img src="../img/tzj-qrcode.jpg" alt=""></dd>
+                    </dl>
+                    <dl>
+                        <dt>TCL APP商城</dt>
+                        <dd><img src="../img/tzj-qrcode.jpg" alt=""></dd>
+                    </dl>
+
+                    <dl class="dl_r">
+                        <p>4008-123456</p>
+                        <p>(24小时在线,仅收市话费)</p>
+                        <div class="connect">
+                            <a href=""><i class="iconfont icon-zaixiankefu"></i><span>24小时在线客服</span></a>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 底部 -->
+    <div id="footer">
+        <div class="footer">
+            <p>
+                <a href="">关于TCL<span>|</span></a>
+                <a href="">投资者关系<span>|</span></a>
+                <a href="">社会责任<span>|</span></a>
+                <a href="">新闻中心<span>|</span></a>
+                <a href="">人才招聘<span>|</span></a>
+                <a href="">成员网站</a>
+            </p>
+            <p>&copy;2010-2021TCL ndustial HoldingsCo,l.td Al ightsReseved.TCl实业控股股份有限公司版权所有 <span>粤CP备05040863号</span>
+                <a href="">使用条款|</a><a href="">法律声明|</a><a href="">隐私政箫|</a><a href="">账户注册协议|</a><a href="">侵权投诉规则|</a>
+            </p>
+            <p><a href="">粤网公安备案44133002100088号</a></p>
+
+            <div class="pic">
+                <img src="../img/brand_bottom_small.jpg" alt="">
+                <img src="../img/gdgs.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="right_fix">
+        <a href="" class="top"><i class="iconfont icon-zaixiankefu"></i><span>客服</span></a>
+        <a href="" class="bottom"><i class="iconfont icon-up"></i><span>顶部</span></a>
+    </div>
+
+
+    <script src="../js/htmljavascript/shopps_lists.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/dist/shoppcar.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../iconfont_car/iconfont.css">
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../js/cookie.js"></script>
+</head>
+
+<body>
+    <div id="head">
+        <div class="head_content">
+            <ul class="head_left">
+                <li><a href=""> TCL新闻 </a></li>
+                <li><a href=""> 企业采购 </a></li>
+                <li><a href=""> 经销商之家</a> </li>
+                <li><a href=""> TCL+ </a> </li>
+                <li><a href=""> 人才招聘 </a> </li>
+            </ul>
+            <ul class="head_right">
+                <li style="position: relative;"><a href=""> 微信商城</a> <img src="../img/wechat.jpg" alt=""></li>
+                <li style="position: relative;"><a href=""> TCL APP商城</a><img src="../img/tzj-qrcode.jpg" alt=""></li>
+                <li><a href=""> 购物车( )</a></li>
+                <li class="register_"><a href="./zhuce.html"> 注册</a></li>
+                <li class="register_"><a href="./denglu.html"> 登录</a></li>
+            </ul>
+            <div class="username_">
+                <p class="act"></p><span class="act">></span>
+            </div>
+            <div class="login_">
+                <ul>
+                    <li><a href="">个人中心</a></li>
+                    <li><a href="">我的产品</a></li>
+                    <li><a href="">我的收藏</a></li>
+                    <li><a href="">账号管理</a></li>
+                    <li><a href="">评价管理</a></li>
+                    <li><a href="" class="exit">退出登录</a></li>
+                </ul>
+
+            </div>
+            <div class="exit_box">
+                <p>您确定要退出登录吗</p>
+                <button class="sure">确定</button><button class="no">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="nav_top">
+        <img src="../img/logo_03.jpg" alt="">
+        <p>我的购物车</p>
+    </div>
+
+    <div id="content_head">
+        <div class="content_head">
+            <ul>
+                <li><input type="checkbox" id="all_choose" class="all_choose"><span>全选</span></li>
+                <li>商品信息</li>
+                <li>单价</li>
+                <li>数量</li>
+                <li>小计</li>
+                <li>操作</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div id="car" class="clearfix">
+        <!-- <ul class="car_list">
+            <li><input type="checkbox"> </li>
+            <li><img src="" alt="">2匹—级变频冷暖节能圆柱立式空调KFRd-51LW/DBp-</li>
+            <li>4599.00元</li>
+            <li><button>-</button><span>1</span><button>+</button></li>
+            <li>4599.00元</li>
+            <li><div><span class="iconfont icon-shanchu1"></span></div> <span class="iconfont icon-xingxing"></span></li>
+
+        </ul> -->
+
+    </div>
+    
+    <div class="pay">
+        <ul id="count">
+            <li><a href="">继续购物>></a></li>
+            <li>共<span class="total"></span>件商品 已选择<span class="choose_count"></span>件</li>
+            <li>合计 (不含运费)：</li>
+            <li><span class="price"></span>元</li>
+            <li><button>去结算</button></li>
+        </ul>
+
+    </div>
+
+    <div id="right_fix">
+        <a href="" class="top"><i class="iconfont icon-zaixiankefu"></i><span>客服</span></a>
+        <a href="" class="bottom"><i class="iconfont icon-up"></i><span>顶部</span></a>
+    </div>
+
+  
+    <script src="../js/htmljavascript/shoppcar.js"></script>
+</body>
+
+</html>

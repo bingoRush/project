@@ -1,0 +1,58 @@
+{
+  "id": "2364977",
+  "name": "project",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "978729",
+      "name": "保",
+      "font_class": "bao10",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "1084557",
+      "name": "官方",
+      "font_class": "icon",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "1172663",
+      "name": "在线客服",
+      "font_class": "zaixiankefu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1183498",
+      "name": "全场包邮",
+      "font_class": "quanchangbaoyou",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "9179130",
+      "name": "7天",
+      "font_class": "tian",
+      "unicode": "e830",
+      "unicode_decimal": 59440
+    },
+    {
+      "icon_id": "9912293",
+      "name": "向上箭头",
+      "font_class": "up",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1335573",
+      "name": "搜索",
+      "font_class": "icon-plus-search",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+[
+
+    {
+        "children": [{
+                "id": "1",
+                "goods_intruduce": "柔风系列 1.5匹 一级变频 智能 凉感 壁挂式空调",
+                "price": "2199.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8yRKmAYUBeAAAJJ-azWuk547.png"
+            },
+            {
+                "id": "2",
+                "goods_intruduce": "柔风系列 初荷1.5匹 一级能效 变颍冷暖",
+                "price": "2299.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8yRKmAYUBeAAAJJ-azWuk547.png"
+            },
+            {
+                "id": "3",
+                "goods_intruduce": "TCL大2匹冷暖变频节能柜机",
+                "price": "4599.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8yRKmAYUBeAAAJJ-azWuk547.png"
+            },
+            {
+                "id": "4",
+                "goods_intruduce": "TCL大3匹1级能效变频空调",
+                "price": "4499.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8yRKmAYUBeAAAJJ-azWuk547.png"
+            },
+            {
+                "id": "5",
+                "goods_intruduce": "e连系列1匹—级变频智能",
+                "price": "2599.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8yRKmAYUBeAAAJJ-azWuk547.png"
+            },
+            {
+                "id": "6",
+                "goods_intruduce": "柔风系列3匹新—级能效圆柱式冷暖变频柔风空调",
+                "price": "4699.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8yRKmAYUBeAAAJJ-azWuk547.png"
+            }
+        ]
+    },
+    {
+        "children": [{
+                "id": "1",
+                "goods_intruduce": "55Q1055英寸QLED全彩 XESS 65A100H 65英寸装",
+                "price": "4199.00",
+                "url":"https://f0.mall.tcl.com/pc1777361-55.png"
+            },
+            {
+                "id": "2",
+                "goods_intruduce": "XESS 65A100H 65英寸 装饰美学浮窗全场景TV",
+                "price": "19999.00",
+                "url":"https://f0.mall.tcl.com/pc1777361-55.png"
+            },
+            {
+                "id": "3",
+                "goods_intruduce": "TCL 65V865英寸免遥控Al声控高性能全面屏4K 腾讯云游戏电视",
+                "price": "3499.00",
+                "url":"https://f0.mall.tcl.com/pc1777361-55.png"
+            },
+            {
+                "id": "4",
+                "goods_intruduce": "65Q965英寸全场景哈曼卡顿音响电视",
+                "price": "5499.00",
+                "url":"https://f0.mall.tcl.com/pc1777361-55.png"
+            },
+            {
+                "id": "5",
+                "goods_intruduce": "75V2D 75英寸超薄Al声控电视",
+                "price": "4399.00",
+                "url":"https://f0.mall.tcl.com/pc1777361-55.png"
+            },
+            {
+                "id": "6",
+                "goods_intruduce": "65T665英寸全场景AI人工智能电视",
+                "price": "3799.00",
+                "url":"https://f0.mall.tcl.com/pc1777361-55.png"
+            }
+        ]
+    },
+
+    {
+        "children": [{
+                "id": "1",
+                "goods_intruduce": "TCL65OL风冷对开门冰箱",
+                "price": "2599.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8ySCKAQauNAABTF3Uz6-o092.png"
+            },
+            {
+                "id": "2",
+                "goods_intruduce": "TCL456L对开门宽薄家用冰箱",
+                "price": "1999.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8ySCKAQauNAABTF3Uz6-o092.png"
+            },
+            {
+                "id": "3",
+                "goods_intruduce": "BCD-408WZ50十字对开门风冷冰箱",
+                "price": "1749.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8ySCKAQauNAABTF3Uz6-o092.png"
+            },
+            {
+                "id": "4",
+                "goods_intruduce": "BCD-210TWZ50典雅银210升变频风冷养鲜三门冰箱",
+                "price": "1399.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8ySCKAQauNAABTF3Uz6-o092.png"
+            },
+            {
+                "id": "5",
+                "goods_intruduce": "TCL 515L对开门风冷无霜冰箱",
+                "price": "2099.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8ySCKAQauNAABTF3Uz6-o092.png"
+            },
+            {
+                "id": "6",
+                "goods_intruduce": "TCL BCD-486WPJD 双变频风冷十字冰箱",
+                "price": "3099.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/3B/Ckgbll8ySCKAQauNAABTF3Uz6-o092.png"
+            }
+        ]
+    },
+
+    {
+        "children": [{
+                "id": "1",
+                "goods_intruduce": "TCL9公斤变颍滚筒洗衣机",
+                "price": "1499.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png"
+            },
+            {
+                "id": "2",
+                "goods_intruduce": "xQG100-P300BD 10公斤洗烘变频洗衣机",
+                "price": "1799.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png"
+            },
+            {
+                "id": "3",
+                "goods_intruduce": "TCL 8公斤变频滚筒洗衣机",
+                "price": "1299.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png"
+            },
+            {
+                "id": "4",
+                "goods_intruduce": "TCL XQB90-1578NS宝石黑9公斤全自动波轮洗衣机",
+                "price": "799.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png"
+            },
+            {
+                "id": "5",
+                "goods_intruduce": "TCL 9公斤免污全自动波轮洗衣机桶中桶分类洗",
+                "price": "1299.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png"
+            },
+            {
+                "id": "6",
+                "goods_intruduce": "xQG100-P300BD 10公斤洗烘变频洗衣机",
+                "price": "1799.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png"
+            }
+        ]
+    },
+
+    {
+        "children": [{
+                "id": "1",
+                "goods_intruduce": "TCL·XESS艺术智屏A100H Pro",
+                "price": "19999.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/46/CkgbNV9xrSiAAVigAACcwTkOvKA708.png"
+            },
+            {
+                "id": "2",
+                "goods_intruduce": "TCL-XESS 艺术智屏A100u",
+                "price": "11999.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/46/CkgbNV9xrSiAAVigAACcwTkOvKA708.png"
+            },
+            {
+                "id": "3",
+                "goods_intruduce": "XESS 65A100T65英寸新造型美学浮窗全场景TV",
+                "price": "19999.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/46/CkgbNV9xrSiAAVigAACcwTkOvKA708.png"
+            },
+            {
+                "id": "4",
+                "goods_intruduce": "TCL-XESS 艺术智屏A100LPro",
+                "price": "19999.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/46/CkgbNV9xrSiAAVigAACcwTkOvKA708.png"
+            },
+            {
+                "id": "5",
+                "goods_intruduce": "TCL·XESS旋转智屏A200Pro",
+                "price": "7499.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/46/CkgbNV9xrSiAAVigAACcwTkOvKA708.png"
+            },
+            {
+                "id": "6",
+                "goods_intruduce": "TCL-XESS 旋转智屏A200Pro-T",
+                "price": "7499.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/46/CkgbNV9xrSiAAVigAACcwTkOvKA708.png"
+            }
+        ]
+    },
+    
+    {
+        "children": [{
+                "id": "1",
+                "goods_intruduce": "TCL K6X物联网智能门锁人脸识别",
+                "price": "3599.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/40/CkgbNV8_faeAd-tGAADDrrrGdqw335.png"
+            },
+            {
+                "id": "2",
+                "goods_intruduce": "TCL K6P物联网智能门锁电子锁",
+                "price": "1599.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/40/CkgbNV8_faeAd-tGAADDrrrGdqw335.png"
+            },
+            {
+                "id": "3",
+                "goods_intruduce": "TCL K6C物联网智能门锁电子锁",
+                "price": "2499.00",
+                "url":"https://s0.mall.tcl.com/group1/M00/00/40/CkgbNV8_faeAd-tGAADDrrrGdqw335.png"
+            }
+        ]
+    },
+
+    
+    {
+        "children": [{
+                "id": "1",
+                "goods_intruduce": "TCL JCE13Z烟灶蒸箱集成灶（液化气)",
+                "price": "13999.00",
+                "url":"https://f0.mall.tcl.com/FuptY0PosNNYYy4ywRcNvUwT5XIJ"
+            },
+            {
+                "id": "2",
+                "goods_intruduce": "TCICC21烟灶消套装集成灶（液化气)",
+                "price": "10999.00",
+                "url":"https://f0.mall.tcl.com/FuptY0PosNNYYy4ywRcNvUwT5XIJ"
+            },
+            {
+                "id": "3",
+                "goods_intruduce": "TCL JCT15烟灶消套装集成灶(液化气)",
+                "price": "4599.00",
+                "url":"https://f0.mall.tcl.com/FuptY0PosNNYYy4ywRcNvUwT5XIJ"
+            },
+            {
+                "id": "4",
+                "goods_intruduce": "TCL JCC20烟灶消套装集成灶（液化气)",
+                "price": "8899.00",
+                "url":"https://f0.mall.tcl.com/FuptY0PosNNYYy4ywRcNvUwT5XIJ"
+            },
+            {
+                "id": "5",
+                "goods_intruduce": "TCL JCC18烟灶消套装集成灶（液化气)",
+                "price": "6699.00",
+                "url":"https://f0.mall.tcl.com/FuptY0PosNNYYy4ywRcNvUwT5XIJ"
+            },
+            {
+                "id": "6",
+                "goods_intruduce": "X16智控大屏蒸烤—体集成灶",
+                "price": "22999.00",
+                "url":"https://f0.mall.tcl.com/FuptY0PosNNYYy4ywRcNvUwT5XIJ"
+            }
+        ]
+    }
+
+]

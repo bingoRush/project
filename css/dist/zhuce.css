@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top {
+  height: 85px;
+  width: 100%;
+}
+#top .head {
+  width: 1206px;
+  height: 85px;
+  margin: auto;
+  line-height: 85px;
+}
+#top .head img,
+#top .head span {
+  display: block;
+  float: left;
+}
+#top .head img {
+  margin: 20px 38px;
+}
+#top .head span {
+  font-size: 30px;
+  color: #ccc;
+}
+
+#main {
+  width: 100%;
+  height: 480px;
+  background: url(../../img/bg2.jpg) no-repeat;
+  background-position: center;
+}
+#main #code {
+  display: block;
+  float: right;
+  height: 40px;
+  width: 86px;
+  border-left: 1px solid #ccc;
+}
+#main #code p {
+  font-size: 12px;
+  background-color: rosybrown;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+}
+#main .content {
+  width: 1206px;
+  height: 480px;
+  margin: auto;
+}
+#main .content .register {
+  width: 362px;
+  height: 342px;
+  background-color: white;
+  margin-top: 69px;
+  float: right;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#main .content .register .register_main {
+  width: 280px;
+  height: 300px;
+  margin: auto;
+  padding-top: 25px;
+}
+#main .content .register .register_main > div {
+  height: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+#main .content .register .register_main > div .getcode {
+  height: 38px;
+  background-color: #f0f0f0;
+  color: red;
+  width: 86px;
+  float: right;
+  font-size: 12px;
+  text-align: center;
+  line-height: 38px;
+}
+#main .content .register .register_main > div .resetCode {
+  height: 38px;
+  background-color: #f0f0f0;
+  color: red;
+  width: 86px;
+  float: right;
+  font-size: 12px;
+  text-align: center;
+  line-height: 38px;
+  display: none;
+}
+#main .content .register .register_main input {
+  border: none;
+  outline: none;
+  display: block;
+  float: left;
+  height: 22px;
+  width: 140px;
+  line-height: 22px;
+  margin-top: 8px;
+}
+#main .content .register .register_main span {
+  display: block;
+  float: left;
+  font-size: 22px;
+  text-align: center;
+  margin: 8px 18px 8px 9px;
+}
+#main .content .register .register_main > p:first-child {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#main .content .register .register_main .register_click {
+  background-color: red;
+  height: 40px;
+  border-radius: 5px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 9px;
+}
+#main .content .register .register_main .toggle {
+  display: flex;
+  justify-content: space-between;
+}
+#main .content .register .register_main .toggle a {
+  font-size: 14px;
+  color: #333333;
+}
+#main .content .register .register_main .toggle a:nth-child(2) {
+  color: red;
+}
+
+#foot {
+  margin-top: 42px;
+}
+#foot ul {
+  margin: auto;
+  height: 21px;
+  width: 500px;
+}
+#foot ul li {
+  float: left;
+}
+#foot ul li a {
+  width: 92px;
+  border-right: 1px solid #ccc;
+  font-size: 12px;
+  color: #666666;
+  display: block;
+  text-align: center;
+}
+#foot p {
+  height: 18px;
+  line-height: 18px;
+  margin-top: 13px;
+  text-align: center;
+  font-size: 12px;
+  color: #666666;
+}

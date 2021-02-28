@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCL首页</title>
+    <link rel="stylesheet" href="../css/dist/home_page.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="../swiper-master/package/swiper-bundle.min.css">
+    <script src="../swiper-master/package/swiper-bundle.min.js"></script>
+    <script src="../js/cookie.js"></script>
+</head>
+
+<body>
+    <div id="zhezhao"></div>
+    <div id="head">
+        <div class="head_content">
+            <ul class="head_left">
+                <li><a href=""> TCL新闻 </a></li>
+                <li><a href=""> 企业采购 </a></li>
+                <li><a href=""> 经销商之家</a> </li>
+                <li><a href=""> TCL+ </a> </li>
+                <li><a href=""> 人才招聘 </a> </li>
+            </ul>
+            <ul class="head_right">
+                <li style="position: relative;"><a href=""> 微信商城</a> <img src="../img/wechat.jpg" alt=""></li>
+                <li style="position: relative;"><a href=""> TCL APP商城</a><img src="../img/tzj-qrcode.jpg" alt=""></li>
+                <li><a href="./shoppcar.html"> 购物车( )</a></li>
+                <li class="register_"><a href="./zhuce.html"> 注册</a></li>
+                <li class="register_"><a href="./denglu.html"> 登录</a></li>
+            </ul>
+            <div class="username_"><p class="act"></p><span class="act">></span></div>
+            <div class="login_">
+                <ul>
+                    <li><a href="">个人中心</a></li>
+                    <li><a href="">我的产品</a></li>
+                    <li><a href="">我的收藏</a></li>
+                    <li><a href="">账号管理</a></li>
+                    <li><a href="">评价管理</a></li>
+                    <li><a href="" class="exit">退出登录</a></li>
+                </ul>
+
+            </div>
+            <div class="exit_box">
+                <p>您确定要退出登录吗</p>
+                <button class="sure">确定</button><button class="no">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="nav_top_content">
+        <div id="nav_top">
+            <img src="../img/logo_03.jpg" alt="">
+            <ul class="nav_top_list">
+                <!-- <div class="line_"></div> -->
+                <li><a href="./home_page.html">首页</a></li>
+                <li><a href="./shopp_list.html?name=TV" class="appear_list">电视</a></li>
+                <li><a href="./shopp_list.html?name=xess" class="appear_list">XESS智屏</a></li>
+                <li><a href="./shopp_list.html?name=AIR" class="appear_list">空调</a></li>
+                <li><a href="./shopp_list.html?name=bingxiang" class="appear_list">冰箱</a></li>
+                <li><a href="./shopp_list.html?name=xiyiji" class="appear_list">洗衣机</a></li>
+                <li><a href="./shopp_list.html?name=chuweidianqi" class="appear_list">厨卫电器</a></li>
+                <li><a href="./shopp_list.html?name=zhinengjiaju" class="appear_list">智能家居</a></li>
+                <li><a href="./shopp_list.html?name=shangyongxianshi" class="appear_list">商用显示</a></li>
+            </ul>
+            <div>
+                <div class="search">
+                    <input type="text" name="" id="msg"><span class="iconfont icon-icon-plus-search"></span>
+
+                </div>
+                <a href=""><span>服务</span></a>
+                <a href=""><span>视频教程</span></a>
+                <a href=""><span>XESS门店</span></a>
+                <img src="../img/images/line_06.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="hidden_list">
+            <ul>
+                <!-- <li>
+                <a href="./goods_msg.html">
+                    <img src="../img/tv.jpg" alt="">
+                    <p>65Q1065英寸QLED全彩量子</p>
+                    <span id="pirces">6499.00元</span>
+                </a>
+            </li> -->
+
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- 轮播图 -->
+    <div id="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/banner.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/banner2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/banner3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../img/banner4.jpg" alt=""></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+
+            <!-- 如果需要导航按钮 -->
+            <div class="nav_1">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+            
+            
+            
+            
+        </div>
+
+        <ul class="banner_nav">
+            <li>
+                <a href="">空调爆款 <span>〉</span></a>
+            </li>
+            <li><a href="">热销电视 <span>〉</span></a></li>
+            <li><a href="">人气冰箱<span>〉</span></a></li>
+            <li><a href="">品质洗衣机 <span>〉</span></a></li>
+            <li><a href="">XESS智屏 <span>〉</span></a></li>
+            <li><a href="">智能门锁 <span>〉</span></a></li>
+            <li><a href="">厨房电器 <span>〉</span></a></li>
+        </ul>
+        <div class="goods_list">
+            <ul>
+                <li><a href="">
+                        <img src="" alt="">
+                        <div>
+                            <p>柔风系列1.5匹—级变频智能凉感壁挂式空调
+                            </p>
+                            <p>4999.00元</p>
+                        </div>
+                    </a></li>
+
+            </ul>
+        </div>
+        
+    </div>
+
+
+    <!-- 轮播图下的产品 -->
+
+    <div class="product">
+        <ul>
+            <li><a href=""><img src="../img/images/product_dianshi_03.jpg" alt=""></a></li>
+            <li><a href=""><img src="../img/images/product_dianshi_03.jpg" alt=""></a></li>
+            <li><a href=""><img src="../img/images/product_dianshi_03.jpg" alt=""></a></li>
+        </ul>
+
+        <ul class="introduce_lists">
+            <li><a href="">电视</a></li>
+            <li><a href="">空调</a></li>
+            <li><a href="">冰箱</a></li>
+            <li><a href="">洗衣机</a></li>
+            <li><a href="">厨房电器</a></li>
+            <li><a href="">智能配件</a></li>
+        </ul>
+    </div>
+
+
+    <!-- 商品类目 -->
+    <!-- 电视 -->
+    <div id="shopps_list">
+        <div class="introduce">
+            <h2>电视</h2>
+            <a href="">AI</a>
+            <a href="">XESS浮窗电视</a>
+            <a href="">更多></a>
+        </div>
+
+        <div class="shopp_kinds">
+            <div class="left">
+                <a href="./goods_msg.html"><img src="../img/produt_left_list.png" alt=""></a>
+            </div>
+            <div class="right">
+
+                <ul class="right_list">
+                    <!-- <li><a href="">
+                        <img src="" alt="">
+                        <p>aaaa</p>
+                        <span>aaaa</span>
+                        <div class="price_1">4646</div>
+                    </a></li> -->
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 空调 -->
+    <div id="shopps_list">
+        <div class="introduce">
+            <h2>空调</h2>
+            <a href="">1匹</a>
+            <a href="">1.5匹</a>
+            <a href="">柜机</a>
+            <a href="">更多></a>
+        </div>
+
+        <div class="shopp_kinds">
+            <div class="left">
+                <a href="./goods_msg.html"><img src="../img/produt_left_list1.png" alt=""></a>
+            </div>
+            <div class="right">
+
+                <ul class="right_list">
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 冰箱 -->
+    <div id="shopps_list">
+        <div class="introduce">
+            <h2>冰箱</h2>
+            <a href="">双门</a>
+            <a href="">三门</a>
+            <a href="">多门</a>
+            <a href="">对开门</a>
+            <a href="">更多></a>
+        </div>
+
+        <div class="shopp_kinds">
+            <div class="left">
+                <a href="./goods_msg.html"><img src="../img/images/bingxiang.png" alt=""></a>
+            </div>
+            <div class="right">
+
+                <ul class="right_list">
+
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- 洗衣机 -->
+    <div id="shopps_list">
+        <div class="introduce">
+            <h2>洗衣机</h2>
+            <a href="">波轮</a>
+            <a href="">滚筒</a>
+
+            <a href="">更多></a>
+        </div>
+
+        <div class="shopp_kinds">
+            <div class="left">
+                <a href="./goods_msg.html"><img src="../img/images/xiyiji.png" alt=""></a>
+            </div>
+            <div class="right">
+
+                <ul class="right_list">
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- 厨房电器 -->
+    <div id="shopps_list">
+        <div class="introduce">
+            <h2>厨房电器</h2>
+            <a href="">集成灶</a>
+
+            <a href="">更多></a>
+        </div>
+
+        <div class="shopp_kinds">
+            <div class="left">
+                <a href="./goods_msg.html"><img src="../img/images/ranqizao.png" alt=""></a>
+            </div>
+            <div class="right">
+
+                <ul class="right_list">
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- 智能配件 -->
+
+    <div id="shopps_list">
+        <div class="introduce">
+            <h2>智能配件</h2>
+            <a href="">美妆个护</a>
+            <a href="">耳机</a>
+            <a href="">智能门锁</a>
+
+            <a href="">更多></a>
+        </div>
+
+        <div class="shopp_kinds">
+            <div class="left">
+                <a href="./goods_msg.html"><img src="../img/images/zhinengpeijian.png" alt=""></a>
+            </div>
+            <div class="right">
+
+                <ul class="right_list">
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 更多产品 -->
+    <div id="more_shopp">
+        <ul>
+            <li>
+                <a href=""><img src="../img/more_pic.jpg" alt=""></a>
+                <div class="new">
+                    <span>新闻</span> <span>李东生:时势造就伟大企业</span>
+                    <p>未来，TCL要以世界级企业为标杆考量自己，在更
+                        深层的技术领域加大投入力量，同时在品牌升级方
+                        面继续努力。
+                    </p>
+                    <a href="">查看详情 >></a>
+                </div>
+            </li>
+            <li>
+                <a href=""><img src="../img/more_pic.jpg" alt=""></a>
+                <div class="new">
+                    <span>资讯</span> <span>重新定义大屏交互体验</span>
+
+                    <p>“超级VUI、巨屏手机、AI大屏”三大属性的新物
+                        种智屏正式亮相。这是自2012年TCL联合腾讯淮出
+                        全球首创的iCE SCREEN智屏后，再一次颠要人...
+                    </p>
+                    <a href="">查看详情 >></a>
+                </div>
+            </li>
+            <li>
+                <a href=""><img src="../img/more_pic.jpg" alt=""></a>
+                <div class="new">
+                    <span>资讯</span> <span>创新缔造未来!</span>
+                    <p>黑科技装置引全球观众围观创新实力赢得世界认
+                        可</p>
+                    <a href="">查看详情 >></a>
+                </div>
+            </li>
+            <li>
+                <a href=""><img src="../img/more_pic.jpg" alt=""></a>
+                <div class="new">
+                    <span>资讯</span> <span>大尺寸和8K是电视的必然趋势</span>
+                    <p>“2019中国8K超高清产业领袖峰会暨AloT未来生
+                        活论坛”主题会议，并成立了国内唯—正式登记的
+                        分会组织“8K超高清产业工作委员会”，TCL实...
+                    </p>
+                    <a href="">查看详情 >></a>
+                </div>
+            </li>
+        </ul>
+        <p><a href="">查看更多>></a></p>
+    </div>
+
+    <!-- 信息 -->
+    <div id="msg">
+        <div class="msg">
+            <ul>
+                <li><a href=""><i class="iconfont icon-icon"></i><span>官方正品</span></a></li>
+                <li><a href=""><i class="iconfont icon-bao10"></i><span>全国联保</span></a></li>
+                <li><a href=""><i class="iconfont icon-quanchangbaoyou"></i><span>全场包邮</span></a></li>
+                <li><a href=""><i class="iconfont icon-tian"></i><span>7天无理由退货</span></a></li>
+            </ul>
+            <div class="help">
+                <div class="help_content">
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">购物指南</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">交易条款</a></dd>
+                        <dd><a href="">电子发票</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务支持</dt>
+                        <dd><a href="">售后服务</a></dd>
+                        <dd><a href="">自助服务</a></dd>
+                        <dd><a href="">进度查询</a></dd>
+                        <dd><a href="">视频教程</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>客户服务</dt>
+                        <dd><a href="">内购平台</a></dd>
+                        <dd><a href="">企业采购</a></dd>
+                        <dd><a href="">经销商之家</a></dd>
+                        <dd><a href="">十分到家</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关注我们</dt>
+                        <dd><a href="">联系我们</a></dd>
+                        <dd><a href="">官方微博</a></dd>
+                        <dd><a href="">授权体验店</a></dd>
+                        <dd><a href="">合作加盟</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>应用服务</dt>
+                        <dd><a href="">雷鸟</a></dd>
+                        <dd><a href="">欢网</a></dd>
+                        <dd><a href="">金融</a></dd>
+                        <dd><a href="">教育</a></dd>
+                        <dd><a href="">全球播</a></dd>
+                        <dd><a href="">T商智云</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>官方微商城</dt>
+                        <dd><img src="../img/tzj-qrcode.jpg" alt=""></dd>
+                    </dl>
+                    <dl>
+                        <dt>TCL APP商城</dt>
+                        <dd><img src="../img/tzj-qrcode.jpg" alt=""></dd>
+                    </dl>
+
+                    <dl class="dl_r">
+                        <p>4008-123456</p>
+                        <p>(24小时在线,仅收市话费)</p>
+                        <div class="connect">
+                            <a href=""><i class="iconfont icon-zaixiankefu"></i><span>24小时在线客服</span></a>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 底部 -->
+    <div id="footer">
+        <div class="footer">
+            <p>
+                <a href="">关于TCL<span>|</span></a>
+                <a href="">投资者关系<span>|</span></a>
+                <a href="">社会责任<span>|</span></a>
+                <a href="">新闻中心<span>|</span></a>
+                <a href="">人才招聘<span>|</span></a>
+                <a href="">成员网站</a>
+            </p>
+            <p>&copy;2010-2021TCL ndustial HoldingsCo,l.td Al ightsReseved.TCl实业控股股份有限公司版权所有 <span>粤CP备05040863号</span>
+                <a href="">使用条款|</a><a href="">法律声明|</a><a href="">隐私政箫|</a><a href="">账户注册协议|</a><a href="">侵权投诉规则|</a>
+            </p>
+            <p><a href="">粤网公安备案44133002100088号</a></p>
+
+            <div class="pic">
+                <img src="../img/brand_bottom_small.jpg" alt="">
+                <img src="../img/gdgs.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="right_fix">
+        <a href="" class="top"><i class="iconfont icon-zaixiankefu"></i><span>客服</span></a>
+        <a href="" class="bottom"><i class="iconfont icon-up"></i><span>顶部</span></a>
+    </div>
+
+    <!-- <script>
+        // $.ajax({
+        //     url:'../js/top_goods_list.json',
+        //     success:function(res){
+        //         console.log(res);
+        //     },
+        //     error:function(res){
+        //         console.log(res);
+        //     },
+        // },'json')
+
+
+
+        // let banner = $('.banner_list');
+        // let banner_click = $('.banner_click');
+        // let timer
+        // let idx = 3
+        // let idx_ = 0
+        // $(banner_click[0]).addClass('click_active')
+        // $(banner[idx]).fadeTo(1000, 1).siblings().fadeTo(1000, 0)
+        // timer = setInterval(() => {
+        //     idx--
+        //     idx_++
+        //     $(banner[idx]).fadeTo(1000, 1).siblings().fadeTo(1000, 0)
+        //     if (idx == 0) {
+        //         idx = 4
+        //     }
+        //     $(banner_click[idx_]).addClass('click_active').siblings().removeClass("click_active")
+
+        //     idx_ = idx_ == 3 ? -1 : idx_
+
+
+
+
+
+
+        // }, 3000);
+    </script> -->
+    
+    <script src="../js/htmljavascript/home_page.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/dist/denglu.css">
+    <link rel="stylesheet" href="../iconfont_zhuce/iconfont.css">
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../js/cookie.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        <div class="head">
+            <img src="../img/logo_03.jpg" alt="">
+            <span>TCL账号登录</span>
+        </div>
+
+    </div>
+    <div id="main">
+        <div class="content">
+            <div class="register">
+                <div class="register_main">
+                    <div class="login_recommend">
+                        <h3>推荐第三方登录</h3>
+                        <p>
+
+                            <a class="pic_register" href="">
+
+                            </a>
+                            <a class="pic_register" href="">
+
+                            </a>
+                            <a class="pic_register" href=""></a>
+                        </p>
+                    </div>
+                    <h3>短信验证码登录</h3>
+                    <div class="phone">
+                        <span class="iconfont icon-shouji"></span><input type="text" name="" id="telphone"
+                            placeholder="手机号码">
+                    </div>
+
+                    <div class="phone_code">
+                        <span class="iconfont icon-shoujiyanzheng"></span><input type="text" name="" id="msgcode"
+                            placeholder="短信验证码">
+                        <p class="getcode">获取验证码</p>
+                        <p class="resetCode"></p>
+                    </div>
+                    <p class="register_click">登录</p>
+                    <p class="toggle">
+                        <a href="" class="toggle_register">账号密码登录</a>
+                        <a href="" class="toggle_register">找回密码</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="foot">
+        <ul>
+            <li><a href="">关于TCL</a></li>
+            <li><a href="">社会责任</a></li>
+            <li><a href="">投资者关系</a></li>
+            <li><a href="">新闻中心</a></li>
+            <li><a href="">经销商之家</a></li>
+        </ul>
+        <p>2010-2016 TCL CORPORATIONAll Rights Reserved.使用条款TCL集团股份有限公司版权所有·粤ICP备05040863号
+        </p>
+    </div>
+
+
+    <script>
+        let telphone = document.querySelector('#telphone')
+        let telphoneNum = telphone.value;
+        let code_
+        $('.getcode').on('click', function () {
+            let telphoneNum = telphone.value;
+            code_ = parseInt(Math.random() * 8999 + 1000)
+            $.ajax({
+                url: '../PHP/denglu.php',
+                data: {
+                    phone: telphoneNum
+                },
+                success: function (res) {
+                    console.log(res);
+                    let res1 = JSON.parse(res);
+                    if (!res1[1].code) {
+                        alert('此用户不存在,请注册')
+
+
+                    } else {
+                        alert('验证码已经发,请检查控制台查收')
+                            $('.resetCode').css('display','block')
+                            $('.getcode').css('display','none')
+                            let re_time = 60
+                            $('.resetCode').html(`重新发送(${re_time}s)`)
+                            var timer = setInterval(() => {
+                                $('.resetCode').html(`重新发送(${re_time-1}s)`)
+                                if(re_time==0){
+                                    clearInterval(timer)
+                                    $('.resetCode').css('display','none')
+                                    $('.getcode').css('display','block')
+                                    re_time=60
+                                }
+                                re_time--
+                            }, 1000);
+                            console.log(code_);
+                    }
+
+                },
+                error: function (err) {
+                    console.log(err);
+                },
+            })
+
+
+
+        })
+
+        $('.register_click').on('click', function () {
+            let telphoneNum = telphone.value;
+            if (!/1[3-9]\d{9}/ig.test($('#telphone').val())) {
+                alert('请输入正确的手机号码')
+            } else {
+                $.ajax({
+                    url: '../PHP/denglu.php',
+                    async: 'false',
+                    data: {
+                        phone: telphoneNum
+                    },
+                    success: function (res) {
+                        // console.log(res);
+                        let res1 = JSON.parse(res);
+                        if (res1[1].code) {
+                            if ($('#msgcode').val() != code_) {
+                                alert('验证码错误！')
+
+                            } else {
+                                alert('登录成功！');
+                                // 设置登录成功的cookie
+                                setCookie('login', telphoneNum)
+                                let str = localStorage.getItem('web_stroge');
+                                if (str) {
+                                    if (str.split('?')[1]) {
+                                        let arr_str = str.split('?')[1].split('&')
+                                        var data_obj = {}
+                                        arr_str.forEach(item => {
+                                            let arr_1 = item.split('=')
+                                            console.log(arr_1);
+                                            data_obj[arr_1[0]] = arr_1[1]
+                                        })
+                                        let length = Object.keys(data_obj).length
+                                        console.log(data_obj, length, str.split('?')[0]);
+                                        // let str_href = `./goods_msg.html?${data}`
+                                        let str_href = ``
+                                        for (var key in data_obj) {
+                                            str_href += key + '=' + decodeURI(data_obj[key]) + "&"
+                                        }
+                                        str_href = str_href.slice(0, -1)
+                                        console.log(str_href);
+                                        location.href = str.split('?')[0] + '?' + str_href
+                                        localStorage.removeItem('web_stroge');
+                                    } else {
+                                        location.href = './shoppcar.html'
+                                        localStorage.removeItem('web_stroge');
+                                    }
+
+
+                                } else {
+                                    location.href = './home_page.html'
+                                    localStorage.removeItem('web_stroge');
+                                }
+
+
+                            }
+                        } else {
+                            alert('账号不存在请到注册页面注册')
+                        }
+
+                    },
+                    error: function (err) {
+                        console.log(err);
+                    },
+                })
+
+            }
+        })
+    </script>
+</body>
+
+</html>

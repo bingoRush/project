@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/dist/zhuce.css">
+    <link rel="stylesheet" href="../iconfont_zhuce/iconfont.css">
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../js/gverify.js"></script>
+    <script src="../js/cookie.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        <div class="head">
+            <img src="../img/logo_03.jpg" alt="">
+            <span>TCL账号登录</span>
+        </div>
+
+    </div>
+    <div id="main">
+        <div class="content">
+            <div class="register">
+                <div class="register_main">
+                    <p>注册TCL账号</p>
+                    <div class="phone">
+                        <span class="iconfont icon-shouji"></span><input type="text" name="" id="telphone"
+                            placeholder="手机号码">
+                    </div>
+                    <div>
+                        <span class="iconfont  icon-duanxinyanzhengma "></span><input type="text" name="" id="picCode"
+                            placeholder="图片验证码">
+                        <div id="code">
+                            <p> 点击生成验证码</p>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="iconfont icon-shoujiyanzheng"></span><input type="text" name="" id="msgcode"
+                            placeholder="短信验证码">
+                        <p class="getcode">获取验证码</p>
+                        <p class="resetCode"></p>
+                    </div>
+                    <p class="register_click">注册</p>
+                    <p class="toggle">
+                        <a href="" class="toggle_register">已有账号直接登录</a>
+                        <a href="" class="toggle_register">推荐第三方登录</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="foot">
+        <ul>
+            <li><a href="">关于TCL</a></li>
+            <li><a href="">社会责任</a></li>
+            <li><a href="">投资者关系</a></li>
+            <li><a href="">新闻中心</a></li>
+            <li><a href="">经销商之家</a></li>
+        </ul>
+        <p>2010-2016 TCL CORPORATIONAll Rights Reserved.使用条款TCL集团股份有限公司版权所有·粤ICP备05040863号
+        </p>
+    </div>
+    <script>
+        let code = document.querySelector('#code')
+        let telphone = document.querySelector('#telphone')
+        let msg_code
+        let code_
+        $('.getcode').on('click', function () {
+            msg_code = parseInt(Math.random() * 8999 + 1000)
+            
+            $.ajax({
+                url: '../PHP/zhue.php',
+                type: 'GET',
+                data: {
+                    phone: telphone.value
+                },
+                success: function (res) {
+                    console.log(res);
+                    let res_ = JSON.parse(res)
+                    if (res_[1].code) {
+                        alert('此用户名已经存在')
+                        $('#telphone').val(' ')
+                    } else {
+                        if (!/1[3-9]\d{9}/ig.test(telphone.value)) {
+                            alert('请输入手机号码')
+                        } else {
+                            alert('验证码已经发,请检查控制台查收')
+                            $('.resetCode').css('display','block')
+                            $('.getcode').css('display','none')
+                            let re_time = 60
+                            $('.resetCode').html(`重新发送(${re_time}s)`)
+                            var timer = setInterval(() => {
+                                $('.resetCode').html(`重新发送(${re_time-1}s)`)
+                                if(re_time==0){
+                                    clearInterval(timer)
+                                    $('.resetCode').css('display','none')
+                                    $('.getcode').css('display','block')
+                                    re_time=60
+                                }
+                                re_time--
+                            }, 1000);
+                            console.log(msg_code);
+                        }
+                    }
+
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            }, 'json')
+
+        })
+        $("#code").on('click', function () {
+            $('#code p').css('display', 'none')
+            new GVerify(code)
+            code_ = $('#verifyCanvas').html().toLocaleLowerCase()
+            $(this).find('#verifyCanvas').siblings().remove()
+        })
+
+        $('.register_click').on('click', function () {
+            let pic_code = $('#picCode').val().toLocaleLowerCase()
+            if (!/1[3-9]\d{9}/ig.test(telphone.value)) {
+                alert('请输入正确的手机号码')
+            }
+            if (!$('#picCode').val()) {
+                alert('请输入正确的图片验证码')
+
+                return
+            } else if (pic_code != code_) {
+                alert('请输入正确的图片验证码')
+
+                return
+            }
+            if ($('#msgcode').val() != msg_code) {
+                alert('请输入正确短信验证码')
+                return
+            } else {
+                alert('注册成功')
+                $.ajax({
+                    url:'../PHP/addtelphone.php',
+                    data:{
+                        phone:telphone.value
+                    },
+                    success:function(res){
+                        console.log(res);
+                    },
+                    error:function(err){
+                        console.log(err);
+                    }
+
+                })
+                // 判断跳转的页面 主页 购物车 详情页 列表页
+                setCookie('login', telphone.value, 604800)
+                let str = localStorage.getItem('web_stroge');
+                if (str) {
+                    if (str.split('?')[1]) {
+                        let arr_str = str.split('?')[1].split('&')
+                        var data_obj = {}
+                        arr_str.forEach(item => {
+                            let arr_1 = item.split('=')
+                            console.log(arr_1);
+                            data_obj[arr_1[0]] = arr_1[1]
+                        })
+                        let length = Object.keys(data_obj).length
+                        console.log(data_obj, length, str.split('?')[0]);
+                        // let str_href = `./goods_msg.html?${data}`
+                        let str_href = ``
+                        for (var key in data_obj) {
+                            str_href += key + '=' + decodeURI(data_obj[key]) + "&"
+                        }
+                        str_href = str_href.slice(0, -1)
+                        console.log(str_href);
+                        location.href = str.split('?')[0] + '?' + str_href
+                        localStorage.removeItem('web_stroge');
+                    } else {
+                        location.href = './shoppcar.html'
+                        localStorage.removeItem('web_stroge');
+                    }
+
+
+                } else {
+                    location.href = './home_page.html'
+                    localStorage.removeItem('web_stroge');
+                }
+
+
+            }
+
+
+
+        })
+
+
+
+        // console.log($('#code').html());
+    </script>
+    <!-- <script src="../js/htmljavascript/zhuce.js"></script> -->
+    <!-- <script src="../PHP/zhue.php"></script> -->
+</body>
+
+</html>

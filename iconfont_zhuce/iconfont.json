@@ -1,0 +1,30 @@
+{
+  "id": "2377141",
+  "name": "project_zhuce",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "654164",
+      "name": "短信验证码",
+      "font_class": "duanxinyanzhengma",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "927070",
+      "name": "手机验证",
+      "font_class": "shoujiyanzheng",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "2019081",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e7b8",
+      "unicode_decimal": 59320
+    }
+  ]
+}

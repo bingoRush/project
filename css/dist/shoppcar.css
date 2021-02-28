@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#head {
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+}
+#head .head_content {
+  width: 1250px;
+  height: 40px;
+  margin: auto;
+  position: relative;
+}
+#head .head_content .head_left {
+  float: left;
+}
+#head .head_content .head_left li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 44px;
+}
+#head .head_content .head_left li a {
+  color: #cccccc;
+  font-size: 11px;
+}
+#head .head_content .head_left li:hover a {
+  color: white;
+}
+#head .head_content .head_right {
+  float: left;
+  margin-left: 432px;
+}
+#head .head_content .head_right li {
+  float: left;
+  height: 40px;
+}
+#head .head_content .head_right li a {
+  display: block;
+  color: #cccccc;
+  font-size: 11px;
+  padding: 0 15px;
+  margin: 12px 0;
+  background: url(../../img/headline_03.jpg) no-repeat;
+  background-position: right;
+}
+#head .head_content .head_right li img {
+  display: none;
+  width: 180px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: -25px;
+  z-index: 2;
+}
+#head .head_content .head_right li:last-child a {
+  background: none;
+}
+#head .head_content .head_right li:hover a {
+  color: white;
+}
+#head .head_content .head_right li:hover img {
+  display: block;
+}
+#head .head_content .username_ {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  display: none;
+}
+#head .head_content .username_ p {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  width: 80px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  float: left;
+  color: #cccccc;
+}
+#head .head_content .username_ span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  transform: rotateZ(90deg);
+  color: #cccccc;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+#head .head_content .login_ {
+  background-color: white;
+  width: 220px;
+  position: absolute;
+  top: 40px;
+  right: -23px;
+  z-index: 100;
+  border: 1px solid #cccccc;
+  display: none;
+}
+#head .head_content .login_ li a {
+  display: block;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  margin: 5px 10px;
+  color: #7e7e7e;
+}
+#head .head_content .login_ li a:hover {
+  background-color: #c9c6c6;
+  color: red;
+}
+#head .head_content .exit_box {
+  width: 350px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid #7e7e7e;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 10px;
+  display: none;
+}
+#head .head_content .exit_box p {
+  height: 150px;
+  line-height: 150px;
+  font-size: 30px;
+  text-align: center;
+}
+#head .head_content .exit_box button {
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #6363dd;
+  margin: 5px 20px 5px 0;
+}
+#head .head_content .exit_box .sure {
+  margin-left: 105px;
+}
+
+#nav_top {
+  height: 60px;
+  width: 1250px;
+  margin: auto;
+  position: relative;
+}
+#nav_top img {
+  position: absolute;
+  top: 7px;
+  left: -21px;
+}
+#nav_top p {
+  height: 60px;
+  line-height: 60px;
+  color: #333;
+  margin-left: 60px;
+}
+
+#content_head {
+  width: 100%;
+  height: 80px;
+  background-color: #e3e3e3;
+}
+#content_head .content_head {
+  width: 1226px;
+  height: 80px;
+  margin: auto;
+}
+#content_head .content_head ul {
+  height: 20px;
+  padding-top: 30px;
+}
+#content_head .content_head li {
+  float: left;
+  height: 20px;
+  text-align: center;
+}
+#content_head .content_head li:first-child {
+  width: 130px;
+}
+#content_head .content_head li:first-child input {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+#content_head .content_head li:nth-child(2) {
+  width: 610px;
+}
+#content_head .content_head li:nth-child(3) {
+  width: 100px;
+}
+#content_head .content_head li:nth-child(4) {
+  width: 176px;
+}
+#content_head .content_head li:nth-child(5) {
+  width: 140px;
+}
+#content_head .content_head li:nth-child(6) {
+  width: 70px;
+  text-align: right;
+}
+
+#car {
+  width: 100%;
+}
+#car ul {
+  width: 1226px;
+}
+#car ul li {
+  float: left;
+}
+#car .car_list {
+  height: 120px;
+  margin: auto;
+  padding: 46px;
+  border-bottom: 1px solid #cccccc;
+}
+#car .car_list li {
+  text-align: center;
+  float: left;
+  line-height: 120px;
+}
+#car .car_list li input {
+  height: 18px;
+  width: 18px;
+}
+#car .car_list li img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-right: 12px;
+  margin-left: 20px;
+}
+#car .car_list li:first-child {
+  width: 130px;
+  text-align: left;
+}
+#car .car_list li:nth-child(2) {
+  width: 610px;
+  text-align: left;
+}
+#car .car_list li:nth-child(3) {
+  width: 100px;
+}
+#car .car_list li:nth-child(4) {
+  width: 176px;
+}
+#car .car_list li:nth-child(4) button {
+  width: 30px;
+  height: 30px;
+  background-color: #e3e3e3;
+  border: none;
+  outline: none;
+}
+#car .car_list li:nth-child(4) span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+#car .car_list li:nth-child(5) {
+  width: 140px;
+}
+#car .car_list li:nth-child(6) {
+  width: 70px;
+}
+#car .car_list li:nth-child(6) span {
+  display: block;
+  float: right;
+  font-size: 16px;
+}
+#car .car_list li:nth-child(6) span:hover {
+  color: red;
+}
+
+.pay #count {
+  width: 1226px;
+  height: 52px;
+  margin: 30px auto 162px;
+  padding: 10px 0 30px 0;
+}
+.pay #count li {
+  float: left;
+  height: 52px;
+  line-height: 52px;
+}
+.pay #count li a {
+  color: #333;
+  font-size: 16px;
+}
+.pay #count li a:hover {
+  color: red;
+}
+.pay #count li .total, .pay #count li .choose_count {
+  color: red;
+  font-size: 20px;
+}
+.pay #count li:first-child {
+  width: 130px;
+}
+.pay #count li:nth-child(2) {
+  width: 610px;
+  text-align: center;
+}
+.pay #count li:nth-child(3) {
+  width: 150px;
+}
+.pay #count li:nth-child(4) {
+  width: 150px;
+  text-align: left;
+}
+.pay #count li:nth-child(4) span {
+  color: red;
+  font-size: 30px;
+}
+.pay #count li:nth-child(5) {
+  width: 186px;
+  text-align: center;
+}
+.pay #count li:nth-child(5) span {
+  color: red;
+  font-size: 30px;
+}
+.pay #count li:nth-child(5) button {
+  border: none;
+  outline: none;
+  background-color: red;
+  width: 186px;
+  height: 52px;
+  font-size: 20px;
+  color: white;
+}
+
+#right_fix {
+  width: 54px;
+  height: 110px;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+#right_fix a {
+  height: 54px;
+  width: 54px;
+  color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#right_fix a i {
+  font-size: 20px;
+}
+#right_fix a:hover i, #right_fix a:hover span {
+  color: red;
+}
+#right_fix a:nth-child(1) {
+  border-bottom: 2px solid #cccccc;
+}
